@@ -1,7 +1,11 @@
 <h1>Hello From Laravel Course</h1>
-@{{ name }}
 
-@@foreach
+{{-- {{ \Illuminate\Support\Js::from($hobbies) }} --}}
+
+<script>
+    const hobbies = {{ Js::from($hobbies) }}
+</script>
+
 
 @verbatim
     

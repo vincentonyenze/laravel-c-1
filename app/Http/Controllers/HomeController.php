@@ -10,6 +10,7 @@ class HomeController extends Controller
         return view('home.index')
         ->with('name', 'zura')
         ->with('surname', 'zekhnaia')
-        ->with('job', '<b>Developer<b>');
+        ->with('job', '<b>Developer<b>')
+        ->with('hobbies', ['Tennis', 'Fishing']);
     }
 }
