@@ -7,9 +7,8 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index(){
-        return view('home.index', [
-            'name' => 'Zura',
-            'surname' => 'Sekhnia'
-        ]);
+        return view('home.index')
+        ->with('name', 'zura')
+        ->with('surname', 'zekhnaia');
     }
 }
