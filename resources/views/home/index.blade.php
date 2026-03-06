@@ -1,20 +1,7 @@
-<h1>Hello From Laravel Course</h1>
+@extends('layouts.app')
 
-{{-- {{ \Illuminate\Support\Js::from($hobbies) }} --}}
+@section('title', 'Home Page')
 
-<script>
-    const hobbies = {{ Js::from($hobbies) }}
-</script>
-
-
-@verbatim
-    
-<div>
-    Name: {{ name }}
-    Age: {{ age }}
-    Job: {{ job }}
-    Hobbies: {{ hobbies }}
-    @if
-</div>
-
-@endverbatim
+@section('content')
+    <h1>Home Page content goes here</h1>
+@endsection
