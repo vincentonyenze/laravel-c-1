@@ -5,8 +5,8 @@
 @section('content')
   <x-card>
     <x-slot:title>Card title 1</x-slot>
-    Card Content 1
-    <x-slot:footer>Card Footer 1</x-slot>
+      Card Content 1
+      <x-slot:footer>Card Footer 1</x-slot>
   </x-card>
 
 
@@ -77,7 +77,7 @@
 
   <main>
 
-      <x-search-form/>
+    <x-search-form action="/search" method="GET" />
 
 
     <!-- New Cars -->
