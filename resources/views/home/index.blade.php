@@ -3,6 +3,9 @@
 @section('title', 'Home Page')
 
 @section('content')
+<x-card/>
+<x-admin.card/>
+<x-button/>
    <!-- Home Slider -->
     <section class="hero-slider">
       <!-- Carousel wrapper -->
